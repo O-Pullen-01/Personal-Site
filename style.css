@@ -268,11 +268,6 @@ h1 {
     }
 }
 
-@media (max-width: 800px) {
-    .mondrian {
-        pointer-events: none;
-    }
-}
 /* Contact Section */
 
 .contact {
