@@ -1,0 +1,292 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section */
+
+.hero {
+    background: url(./Images/Background.png);
+    padding: 150px 0px;
+    height: 400px;
+}
+
+h1 {
+    font-size: 75px;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 1000px) {
+   
+    h1 {
+        font-size: 50px;
+        padding-bottom: 15px;
+    }
+}
+
+/* Profile Section */
+
+.about-me {
+    padding: 20px 250px;
+}
+
+.profile {
+    height: 200px;
+    border-radius: 20px;
+    margin: 20px 0px;
+}
+
+@media (max-width: 1000px) {
+    .about-me {
+        padding: 20px 150px;
+    }    
+}
+
+@media (max-width: 800px) {
+    .profile {
+        height: 150px;
+    }
+
+    .about-me {
+        padding: 20px 75px;
+    }
+}
+
+/* Education Section */
+
+.education {
+    background-color: #c1ff7280;
+    padding: 20px 60px;
+}
+
+.edu-container {
+    padding: 40px 0px;
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+}
+
+.icon {
+    height: 100px;
+}
+
+.school {
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.school:hover {
+    background-color: #7ed957;
+}
+
+.college {
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.college:hover {
+    background-color: #7ed957;
+}
+
+@media (max-width: 800px) {
+    .edu-container {
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 20px 0px;
+    }
+}
+
+@media (max-width: 800px) {
+    .school,.college {
+        pointer-events: none;
+    }
+}
+
+/* Skills Section */
+
+.skills {
+    padding: 20px 60px;
+}
+
+.ski-container {
+    padding: 40px 0px;
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+}
+
+.skill {
+    height: 100px;
+}
+
+.computer {
+    padding: 20px;
+    border-radius: 10px;
+    flex-basis: 300px;
+    min-width: 200px;
+}
+
+.computer:hover {
+    background-color: #e9fad4;
+}
+
+.customer-support {
+    padding: 20px;
+    border-radius: 10px;
+    flex-basis: 300px;
+    min-width: 200px;
+}
+
+.customer-support:hover {
+    background-color: #e9fad4;
+}
+
+.microsoft {
+    padding: 20px;
+    border-radius: 10px;
+    flex-basis: 300px;
+    min-width: 200px;
+}
+
+.microsoft:hover {
+    background-color: #e9fad4;
+}
+
+@media (max-width: 1000px) {
+    .ski-container {
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 20px 0px;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .computer,.customer-support,.microsoft {
+        pointer-events: none;
+    }
+}
+
+/* Hobbies Section */
+
+.hobbies {
+    background-color: #c1ff7280;
+    padding: 20px 60px;
+}
+
+.hob-container {
+    padding: 40px 0px;
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+}
+
+.hobby {
+    height: 100px;
+}
+
+.music {
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.music:hover {
+    background-color: #7ed957;
+}
+
+.photography {
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.photography:hover {
+    background-color: #7ed957;
+}
+
+.cats {
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.cats:hover {
+    background-color: #7ed957;
+}
+
+@media (max-width: 1000px) {
+    .hob-container {
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 20px 0px;
+    }
+}
+
+@media (max-width: 800px) {
+    .music,.photography,.cats {
+        pointer-events: none;
+    }
+}
+
+/* Projects Section */
+
+.projects {
+    padding: 20px 0px;
+}
+
+.proj-container {
+    padding: 40px 0px;
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+}
+
+.project {
+    height: 100px;
+}
+
+.mondrian {
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.mondrian:hover {
+    background-color: #e9fad4;
+}
+
+@media (max-width: 1000px) {
+    .proj-container {
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 20px 0px;
+    }
+}
+
+@media (max-width: 800px) {
+    .mondrian {
+        pointer-events: none;
+    }
+}
+/* Contact Section */
+
+.contact {
+    background-color: #c1ff7280;
+    padding: 20px 0px;
+}
+
+/* Footer Section */
+
+footer {
+    background-color: #7ed957;
+}
+
+footer > p {
+    margin: 0;
+    padding: 20px 0px;
+}
